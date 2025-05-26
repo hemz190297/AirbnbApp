@@ -33,7 +33,7 @@ struct ExploreView: View {
                         ForEach(viewModal.listings, id: \.self) { listning in
                             NavigationLink(value: listning) {
                                 ListingItemView(listing: listning)
-                                    .frame(height: 420)
+                                    .frame(height: 410)
                                     .clipShape(RoundedRectangle(cornerRadius: 10))
                             }
                         }
